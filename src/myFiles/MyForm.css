@@ -1,0 +1,54 @@
+.MyForm {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f8f8f8;
+}
+
+.MyForm label {
+    margin-bottom: 5px;
+}
+
+.MyForm input[type="text"] {
+    width: 300px;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.MyForm button[type="submit"],
+.MyForm button[type="button"] {
+    padding: 10px 20px;
+    margin-top: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.MyForm button[type="submit"]:hover,
+.MyForm button[type="button"]:hover {
+    background-color: #0056b3;
+}
+
+
+.MyButton {
+    padding: 10px 20px;
+    margin-top: 10px;
+    background-color: #007bff; /* Active background color */
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.MyButton:disabled {
+    background-color: #b3d7ff; /* Inactive background color */
+    cursor: not-allowed;
+}

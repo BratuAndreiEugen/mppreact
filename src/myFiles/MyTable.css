@@ -1,0 +1,31 @@
+
+.MyTable {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.MyTable th,
+.MyTable td {
+    padding: 8px;
+    text-align: left;
+}
+
+.MyTable th {
+    background-color: #f2f2f2;
+}
+
+.MyTable tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.MyTable th:first-child,
+.MyTable td:first-child {
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+.MyTable th:last-child,
+.MyTable td:last-child {
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
